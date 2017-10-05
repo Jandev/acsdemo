@@ -6,3 +6,9 @@ services:
     build:
       context: .\Convertor1
       dockerfile: Dockerfile
+
+  convertor2:
+    image: convertor2
+    build:
+      context: .\Convertor2
+      dockerfile: Dockerfile
