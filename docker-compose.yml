@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  convertor1:
+    image: convertor1
+    build:
+      context: .\Convertor1
+      dockerfile: Dockerfile

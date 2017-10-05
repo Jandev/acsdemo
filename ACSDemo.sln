@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convertor1", "Convertor1\Convertor1.csproj", "{4393D43A-485F-4195-977F-956541DF89CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convertor2", "Convertor2\Convertor2.csproj", "{D6548DF2-B9F6-4C48-B2AB-FCB6C4C57855}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0934149D-4823-45E0-B84F-70ACFE7C51ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4393D43A-485F-4195-977F-956541DF89CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4393D43A-485F-4195-977F-956541DF89CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4393D43A-485F-4195-977F-956541DF89CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4393D43A-485F-4195-977F-956541DF89CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6548DF2-B9F6-4C48-B2AB-FCB6C4C57855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6548DF2-B9F6-4C48-B2AB-FCB6C4C57855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6548DF2-B9F6-4C48-B2AB-FCB6C4C57855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6548DF2-B9F6-4C48-B2AB-FCB6C4C57855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0934149D-4823-45E0-B84F-70ACFE7C51ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0934149D-4823-45E0-B84F-70ACFE7C51ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0934149D-4823-45E0-B84F-70ACFE7C51ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0934149D-4823-45E0-B84F-70ACFE7C51ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56560785-C199-488E-AEC1-CC868EE02553}
+	EndGlobalSection
+EndGlobal
