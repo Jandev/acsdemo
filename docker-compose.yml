@@ -1,14 +1,3 @@
 version: '3'
 
 services:
-  convertor1:
-    image: convertor1
-    build:
-      context: .\Convertor1
-      dockerfile: Dockerfile
-
-  convertor2:
-    image: convertor2
-    build:
-      context: .\Convertor2
-      dockerfile: Dockerfile

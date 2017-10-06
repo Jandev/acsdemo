@@ -4,7 +4,7 @@ using log4net.Config;
 using Topshelf;
 using Topshelf.Autofac;
 
-namespace Convertor1
+namespace Convertor2
 {
     class Program
     {
@@ -31,7 +31,7 @@ namespace Convertor1
                 });
                 x.RunAsLocalSystem();
                 x.StartAutomatically();
-                x.SetDescription("The processor of the Subcontractor Exchange messages.");
+                x.SetDescription("The convertor 2.");
             });
         }
     }

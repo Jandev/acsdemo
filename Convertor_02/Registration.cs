@@ -1,7 +1,8 @@
-﻿using Autofac;
+﻿using System.Reflection;
+using Autofac;
 using log4net;
 
-namespace Convertor2
+namespace Convertor_02
 {
     internal class Registration
     {
@@ -10,7 +11,7 @@ namespace Convertor2
             var containerBuilder = new ContainerBuilder();
 
             containerBuilder.RegisterType<ProcessorService>().As<IWindowsService>();
-            containerBuilder.Register(context => LogManager.GetLogger("Convertor2")).As<ILog>();
+            containerBuilder.Register(context => LogManager.GetLogger(Assembly.GetEntryAssembly(), "globallogger")).As<ILog>();
 
             return containerBuilder.Build();
         }

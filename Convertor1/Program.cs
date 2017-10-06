@@ -31,7 +31,7 @@ namespace Convertor1
                 });
                 x.RunAsLocalSystem();
                 x.StartAutomatically();
-                x.SetDescription("The processor of the Subcontractor Exchange messages.");
+                x.SetDescription("The convertor 1.");
             });
         }
     }

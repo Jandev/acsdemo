@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convertor2", "Convertor2\Co
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0934149D-4823-45E0-B84F-70ACFE7C51ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convertor_01", "Convertor_01\Convertor_01.csproj", "{F4836048-53BD-4FCD-8114-9AA748B0142D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convertor_02", "Convertor_02\Convertor_02.csproj", "{A89E0335-CE21-4DF5-B4C9-4D28436E24A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{0934149D-4823-45E0-B84F-70ACFE7C51ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0934149D-4823-45E0-B84F-70ACFE7C51ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0934149D-4823-45E0-B84F-70ACFE7C51ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4836048-53BD-4FCD-8114-9AA748B0142D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4836048-53BD-4FCD-8114-9AA748B0142D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4836048-53BD-4FCD-8114-9AA748B0142D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4836048-53BD-4FCD-8114-9AA748B0142D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A89E0335-CE21-4DF5-B4C9-4D28436E24A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89E0335-CE21-4DF5-B4C9-4D28436E24A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89E0335-CE21-4DF5-B4C9-4D28436E24A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89E0335-CE21-4DF5-B4C9-4D28436E24A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
