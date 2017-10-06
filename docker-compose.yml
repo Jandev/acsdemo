@@ -1,3 +1,15 @@
 version: '3'
 
 services:
+
+  convertor_01:
+    image: convertor_01
+    build:
+      context: ./Convertor_01
+      dockerfile: Dockerfile
+
+  convertor_02:
+    image: convertor_02
+    build:
+      context: ./Convertor_02
+      dockerfile: Dockerfile
